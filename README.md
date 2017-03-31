@@ -3,11 +3,11 @@
 
 ## Installation
 
-First, install [Yeoman](http://yeoman.io) and generator-buildbot-dashboard using [yarn](https://yarnpkg.com/) (we assume you have pre-installed [node.js](https://nodejs.org/)).
+First, install [Yeoman](http://yeoman.io) and generator-buildbot-dashboard using [yarn](https://yarnpkg.com/) (we assume you have it pre-installed as well as [node.js](https://nodejs.org/)).
 
 ```bash
-npm install -g yo
-npm install -g generator-buildbot-dashboard
+yarn global add yo
+yarn global add generator-buildbot-dashboard
 ```
 
 Then generate your new project:
