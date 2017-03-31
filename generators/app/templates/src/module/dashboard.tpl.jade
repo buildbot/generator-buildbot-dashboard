@@ -1,0 +1,11 @@
+.container.mydashboard
+  // Create a table of builds organised by builders in columns
+  table.table
+    tr
+      // Generate the table header with name of builders
+      th(ng-repeat="builder in builders")
+        | {{builder.name}}
+    tr(ng-repeat="build in builds")
+      td(ng-repeat="builder in builders")
+          div(ng-if="build.builderid==builder.builderid")
+              buildsticker(buildid='build.buildid')

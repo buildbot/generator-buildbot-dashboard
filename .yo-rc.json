@@ -1,0 +1,9 @@
+{
+  "generator-node": {
+    "promptValues": {
+      "authorName": "Pierre Tardy",
+      "authorEmail": "tardyp@gmail.com",
+      "authorUrl": ""
+    }
+  }
+}

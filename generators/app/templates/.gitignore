@@ -1,0 +1,8 @@
+VERSION
+*.pyc
+*.egg-info
+node_modules
+libs
+build
+*/static/
+yarn.lock
